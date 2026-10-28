@@ -1,0 +1,17 @@
+{
+  "name": "workpulse-payment-service",
+  "version": "1.0.0",
+  "description": "WorkPulse Enterprise Payment Gateway Orchestrator microservice tracking [FIN-PAY-003]",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": ["payment", "stripe", "adyen", "orchestrator", "workbnch"],
+  "author": "Marcus Chen <marcus.chen@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
